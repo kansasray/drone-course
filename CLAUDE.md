@@ -29,4 +29,5 @@ COURSE=courses/drone COOKIES_BROWSER= uv run python src/build/fetch_meta.py
 
 ## 狀態(2026-08-10 完成)
 - **verify 57/57、audit 0 錯誤 2 警告(留白+低觀看,皆已知)、89 tests**;零跨章重複;HeyDrones 最高 14%
-- (部署後補:上線網址與 GitHub repo)
+- **已上線 https://drone-course.pages.dev**(Pages 專案 drone-course)
+- **GitHub**:kansasray/drone-course(public,Discussions 已開,giscus 已填待裝 App)
