@@ -1,0 +1,304 @@
+{
+  "$schema": "../../src/build/course.schema.json",
+  "frameworkVersion": "2.0.0",
+  "site": {
+    "project": "drone-course",
+    "name": "無人機之路",
+    "url": "https://drone-course.pages.dev",
+    "locale": "zh-Hant",
+    "ogLocale": "zh_TW",
+    "brandIcon": "navigation",
+    "title": "無人機之路:台灣考證與空拍應用",
+    "description": "台灣民航局無人機制度與操作證考試、禁飛區與法規、基礎飛行訓練、DJI 操作、空拍構圖,以及災防應用的搜救熱像與測繪。中文教學為主軸,災防應用章以英文權威內容補足,每支附繁中導讀。",
+    "keywords": [
+      "無人機",
+      "操作證",
+      "民航局",
+      "空拍",
+      "DJI",
+      "禁飛區",
+      "術科",
+      "學科",
+      "搜救",
+      "熱像"
+    ],
+    "educationalLevel": "零基礎到操作證考試",
+    "audience": "想考無人機操作證的人、空拍入門者、防災應用的無人機手",
+    "about": [
+      "無人機操作證",
+      "民航法規",
+      "空拍",
+      "災防應用"
+    ],
+    "learningResourceType": [
+      "策展影片課程",
+      "考證導讀"
+    ]
+  },
+  "hero": {
+    "eyebrow": "策展自 YouTube 公開教學",
+    "heading": "無人機之路",
+    "lede": "{lessonUnits} 個單元、{videos} 支影片,從民航局考證到災區上空。民航局官方術科示範為骨幹,看點都標好了。"
+  },
+  "ui": {
+    "stats": [
+      {
+        "icon": "layers",
+        "field": "lesson_units",
+        "label": "個單元"
+      },
+      {
+        "icon": "clock",
+        "field": "duration",
+        "label": "課程時長"
+      },
+      {
+        "icon": "video",
+        "field": "drill_units",
+        "label": "支延伸影片"
+      },
+      {
+        "icon": "gamepad-2",
+        "field": "problem_units",
+        "label": "個操作技能"
+      }
+    ],
+    "tabs": {
+      "landing": "首頁",
+      "course": "課程",
+      "stance": "立場",
+      "player": "上課"
+    },
+    "unitTypes": {
+      "reg": "法規考證",
+      "concept": "原理",
+      "skill": "操作技能",
+      "application": "應用"
+    },
+    "problemType": "skill",
+    "unitNoun": "個單元",
+    "lessonNoun": "堂主課",
+    "drillNoun": "支延伸影片",
+    "drillNounShort": "支",
+    "kindFilterLabel": "影片類型篩選",
+    "missingTitle": "尚未找到合格教學影片",
+    "missingHint": "這個主題在 YouTube 上找不到品質足夠的公開教學。備註寫了查過哪些關鍵字、為什麼不採用。",
+    "watchLabel": "觀看教學",
+    "lessonLabel": "主課",
+    "assessmentLabel": "學會了沒",
+    "facetLabel": "分面篩選",
+    "searchPlaceholder": "搜尋單元",
+    "playlistSearch": "搜尋播放清單",
+    "progressLabel": "學習進度",
+    "doneLabel": "標記完成",
+    "prevLabel": "上一支",
+    "nextLabel": "下一支",
+    "moreLabel": "補充說明",
+    "openExternal": "在 YouTube 開啟",
+    "emptyTitle": "沒有符合的內容",
+    "emptyHint": "換個關鍵字,或把篩選條件清掉。",
+    "filterAllLabel": "全部"
+  },
+  "kinds": [
+    {
+      "id": "lecture",
+      "label": "講解",
+      "tone": "accent"
+    },
+    {
+      "id": "walkthrough",
+      "label": "示範",
+      "tone": "success"
+    },
+    {
+      "id": "official",
+      "label": "官方",
+      "tone": "done"
+    }
+  ],
+  "nav": [
+    {
+      "title": "PART I　法規與考證",
+      "chapters": [
+        "CH1",
+        "CH2",
+        "CH3"
+      ]
+    },
+    {
+      "title": "PART II　飛行操作",
+      "chapters": [
+        "CH4",
+        "CH5",
+        "CH6"
+      ]
+    },
+    {
+      "title": "PART III　空拍與應用",
+      "chapters": [
+        "CH7",
+        "CH8",
+        "CH9"
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "code": "CH1",
+      "title": "制度與分級",
+      "icon": "badge-check",
+      "source": "ch1",
+      "units": 2,
+      "drills": 3
+    },
+    {
+      "code": "CH2",
+      "title": "法規與禁飛區",
+      "icon": "map-pin-off",
+      "source": "ch2",
+      "units": 2,
+      "drills": 3
+    },
+    {
+      "code": "CH3",
+      "title": "學科與術科應考",
+      "icon": "clipboard-list",
+      "source": "ch3",
+      "units": 2,
+      "drills": 4
+    },
+    {
+      "code": "CH4",
+      "title": "多旋翼原理與安全",
+      "icon": "fan",
+      "source": "ch4",
+      "units": 2,
+      "drills": 4
+    },
+    {
+      "code": "CH5",
+      "title": "基礎飛行訓練",
+      "icon": "gamepad-2",
+      "source": "ch5",
+      "units": 3,
+      "drills": 5
+    },
+    {
+      "code": "CH6",
+      "title": "電池維護與緊急程序",
+      "icon": "battery-charging",
+      "source": "ch6",
+      "units": 2,
+      "drills": 4
+    },
+    {
+      "code": "CH7",
+      "title": "DJI 機種操作與設定",
+      "icon": "sliders-horizontal",
+      "source": "ch7",
+      "units": 3,
+      "drills": 5
+    },
+    {
+      "code": "CH8",
+      "title": "空拍構圖與運鏡",
+      "icon": "camera",
+      "source": "ch8",
+      "units": 3,
+      "drills": 5
+    },
+    {
+      "code": "CH9",
+      "title": "災防應用:搜救熱像與測繪",
+      "icon": "scan-search",
+      "source": "ch9",
+      "units": 2,
+      "drills": 4
+    }
+  ],
+  "audit": {
+    "duration": {
+      "lesson": {
+        "min": "3:00",
+        "max": "30:00"
+      },
+      "drill": {
+        "min": "0:45",
+        "max": "25:00"
+      }
+    },
+    "driftSeconds": 45,
+    "minViews": 150,
+    "metaCoverage": 1,
+    "drillsPerUnit": {
+      "min": 1,
+      "max": 12
+    },
+    "maxSharedVideos": 20,
+    "requireAssessment": [
+      "reg",
+      "skill",
+      "concept"
+    ],
+    "minAssessmentChars": 80,
+    "allowMissingUrls": 6,
+    "maxChannelShare": 0.3,
+    "copyStyle": {
+      "maxDashRatio": 0.05
+    }
+  },
+  "stance": {
+    "title": "這門課的立場",
+    "intro": "四個入門者最常問、而且答案不見得好聽的問題。查證結果對課程自己不利的,照實寫。",
+    "outroTitle": "這些判定是怎麼來的",
+    "outro": "依據是民航局公開規定與策展時的實際搜尋紀錄。搜尋過程與數字寫在 `docs/plans/youtube-coverage-survey.md`。",
+    "verdicts": {
+      "concept-1": "也有規則。免註冊不等於免法規。",
+      "concept-2": "沒有。本課用僅存的小頻道加題庫自讀。",
+      "concept-3": "會過時。學操作邏輯,不要背選單位置。",
+      "concept-4": "正在變。飛之前查民航局現況,不要信舊影片。"
+    }
+  },
+  "landing": {
+    "howTitle": "這門課怎麼用",
+    "stanceTitle": "這門課的立場",
+    "stanceLede": "四則查證判定,其中兩則對課程自己不利。",
+    "chaptersTitle": "章節",
+    "steps": [
+      {
+        "icon": "badge-check",
+        "title": "先合法,再起飛",
+        "body": "PART I 講台灣的無人機分級制度、法規與禁飛區、學科與術科考試。民航局官方的術科示範影片是這一部的骨幹。"
+      },
+      {
+        "icon": "gamepad-2",
+        "title": "把飛行基本功練穩",
+        "body": "PART II 是多旋翼原理、起降懸停與航線練習、電池維護與緊急程序。模擬器與空曠場地都用得上。"
+      },
+      {
+        "icon": "scan-search",
+        "title": "讓無人機做正事",
+        "body": "PART III 從 DJI 操作與空拍構圖,到災防應用的搜救熱像與測繪。災防章以英文權威內容補足,導讀是繁中的。"
+      }
+    ],
+    "ctaTitle": "從第一章開始",
+    "ctaLede": "{videos} 支影片、{lessonUnits} 個單元,看點都標好了。"
+  },
+  "footer": {
+    "disclaimer": "**飛行前請確認現行法規與禁飛區。**台灣的無人機法規與禁航區公告持續變動,本課程影片的法規描述以錄製當時為準,實際飛行以民航局現行公告為準。影片版權屬各原始 YouTube 頻道,本站只做策展與導讀。",
+    "credits": "教學影片策展自 YouTube 公開內容,版權屬各原始頻道所有。**姊妹課程**:載人飛行的學科體系見「飛行員之路」 pilot-course.pages.dev;災防技能樹見「ATAK 防災地圖」 atak-course.pages.dev。"
+  },
+  "llms": {
+    "summary": "[[course]] 是一門策展自 YouTube 公開影片的台灣無人機課,分成法規與考證、飛行操作、空拍與應用三部,共 [[durationHours]] 小時 [[durationMinutes]] 分。中文教學為主軸,災防應用以英文內容補足,導讀為繁體中文。",
+    "stanceTitle": "立場",
+    "stanceIntro": "四則查證判定,包含對課程自己不利的部分。",
+    "stanceItem": "**[[name]]**:[[summaryShort]]…",
+    "stanceConclusion": "判定依據是民航局公開規定與策展搜尋紀錄。",
+    "chaptersTitle": "章節",
+    "chapterItem": "**[[code]] [[title]]**([[unitCount]] 個單元):[[units]]",
+    "unitSeparator": "、",
+    "disclaimerTitle": "使用說明",
+    "disclaimer": "飛行前確認民航局現行法規與禁航區公告;本課程為教育參考。影片版權屬各原始 YouTube 頻道。",
+    "footer": "完整課程:[[url]]　姊妹課程:[飛行員之路](https://pilot-course.pages.dev/)、[ATAK 防災地圖](https://atak-course.pages.dev/)"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "chapter": "CH9",
+  "title": "災防應用:搜救熱像與測繪",
+  "units": [
+    {
+      "id": "ch9-u1",
+      "name": "搜救與熱像",
+      "type": "application",
+      "assessment": "看完這個單元後你要能分辨清楚三件事：熱像儀在白天(環境物體都被陽光曬熱、溫差不明顯)跟夜間或清晨(氣溫低、活體體溫相對突出)搜救效果為什麼不一樣；空拍搜救常見的搜索方式大致是沿著規劃好的平行航線或格狀範圍逐段掃過去，不是憑感覺亂飛；空中操作員發現疑似目標後，該回報給地面隊的是座標與影像紀錄，不是自己降落去確認——這一點只點出空地配合的原則，實際的通訊指揮鏈與地面接觸流程留給姊妹課「空地協同」(dgti-course.pages.dev)細講。",
+      "lesson": {
+        "title": "How Search and Rescue Teams Use Thermal Drones to Find Missing Persons: DJI Zenmuse H30T",
+        "channel": "DJI Enterprise",
+        "url": "https://www.youtube.com/watch?v=ig7ssGRJFq8",
+        "duration": "3:38",
+        "why": "DJI Enterprise 官方頻道 2026 年 1 月 19 日上架，片長 3 分 38 秒，觀看數超過 103 萬。英文片，無中文字幕，以下是繁中導讀。內容記錄捷克志願搜救組織 SARY 用 DJI M350 無人機搭載 Zenmuse H30T 熱像鏡頭(英文 thermal camera，機型代號裡的「T」就代表有熱像功能)執行一次搜索任務：操作員在監看器上看熱像畫面(0:56 起說明為什麼要用熱像機型，尤其夜間或視線不佳時溫差最明顯)、發現可疑熱訊號後(1:17 起)立刻回報座標給最近的地面隊，地面隊到現場確認，操作員再透過 FlightHub(DJI 的飛行管理平台)把即時畫面同步分享到地面隊的平板與手機(2:12 起)，讓雙方看到同一個畫面；片尾(2:58 起)示範搜索隊形一字排開的變換。全片沒有 YouTube 章節標記，以上時間點是從英文自動字幕內容比對抓出來的大致位置，不是官方標記的章節。"
+      },
+      "drills": [
+        {
+          "name": "空拍搜救的自動搜索航線設定",
+          "en": "DJI Pilot 2 waypoint search pattern tutorial for SAR",
+          "kind": "walkthrough",
+          "target": "用 DJI Pilot 2 App 規劃搜索航線(waypoint mission)的操作步驟，以及自動飛行時飛手怎麼分工",
+          "dose": "看完後想一下自己如果要規劃一塊搜索範圍，會怎麼決定航線間距(重疊率)與飛行高度，自動飛行時飛手的手要空出來做什麼",
+          "title": "DJI Pilot 2 waypoint Search & Rescue search patterns mission tutorial   HD 1080p",
+          "channel": "Epic F.P.V",
+          "url": "https://www.youtube.com/watch?v=wzG_gvwv2VA",
+          "duration": "16:19",
+          "why": "Epic F.P.V 頻道 2023 年 10 月 6 日上架，片長 16 分 19 秒，觀看數 6,934。英文片，無中文字幕，以下是繁中導讀。頻道主用螢幕錄影示範怎麼在 DJI Pilot 2 App 裡建立航點任務(waypoint mission)當搜索航線：選機型、設飛行高度與速度(約 3:00 起)、設定搜索範圍的寬度與相機重疊率(約 5:30 起，寬度愈窄重疉愈高，細節愈清楚但耗時愈久)、示範航點可以逐點調整(約 8:16 起)。重點是自動飛行沿航線走的時候，飛手的手是空出來控制雲台鏡頭與縮放，不是拿去打桿(約 12:17 起)。片尾提到同一套方法也能拿來規劃測繪任務(約 15:30 起)，跟本課第二個單元的自動航線測繪呼應。全片沒有章節標記，以上時間點是從英文自動字幕比對抓出來的大致位置。"
+        },
+        {
+          "name": "搜救無人機操作要點",
+          "en": "Essential tips for search and rescue with drones",
+          "kind": "lecture",
+          "target": "搜索範圍怎麼界定、飛行高度怎麼抓、熱像與可見光鏡頭什麼時候各自派上用場",
+          "dose": "看完後對照自己手上機型有沒有熱像鏡頭，想清楚沒有熱像鏡頭的話，白天跟夜間搜索各該怎麼調整做法",
+          "title": "Essential Tips for Search and Rescue with Drones - DSLRPros Training",
+          "channel": "DSLRPros",
+          "url": "https://www.youtube.com/watch?v=fHty_TXOYJc",
+          "duration": "5:51",
+          "why": "DSLRPros Training 系列，2024 年 4 月 29 日上架，片長 5 分 51 秒，觀看數 11,826。英文片，無中文字幕，以下是繁中導讀。DSLRPros 是美國專做公共安全與工業用途無人機解決方案的廠商，講者是該公司 Director of Public Safety Derrick Ward。片子本身有 YouTube 章節標記，分四段：0:00 Search Area(怎麼界定搜索範圍)、0:35 Altitude(飛行高度怎麼抓，抓太高看不清楚、抓太低視野窄)、1:43 Thermal Camera(熱像 thermal camera 的使用時機與限制)、4:32 RGB Camera(可見光鏡頭 RGB camera 什麼時候比熱像更好用，例如白天辨識衣服顏色)。內容偏廠商訓練課的整理式講解，沒有實際飛行畫面，適合當第一支影片之後的補充，把單元裡沒細講的鏡頭選擇原則說清楚。"
+        }
+      ]
+    },
+    {
+      "id": "ch9-u2",
+      "name": "測繪與災害評估",
+      "type": "application",
+      "assessment": "看完這個單元後你要能講清楚三件事：正射影像(orthomosaic)跟一般空拍照片差在哪——正射影像是把很多張重疊的照片拼接、校正透視變形之後合成的地圖等級影像，可以在上面量距離量面積，單張空拍照片做不到；無人機測繪任務通常怎麼飛——沿著規劃好的格狀航線自動飛，不是操作員手動一張一張拍；災後用空拍測繪能幫上什麼實際的忙——把受損範圍做成正射影像，讓救災單位一次看清楚哪些區域損害最重，用來排優先順序，不是取代地面勘查。",
+      "lesson": {
+        "title": "Mapping 101 - Introduction to Drone Mapping",
+        "channel": "DJI Enterprise",
+        "url": "https://www.youtube.com/watch?v=rLOM82se6W8",
+        "duration": "4:35",
+        "why": "DJI Enterprise 官方頻道「Mapping 101」系列第一集，2022 年 2 月 7 日上架，片長 4 分 35 秒，觀看數 27,629。英文片，無中文字幕，以下是繁中導讀。有 YouTube 章節標記：0:00 Introduction(無人機測繪怎麼改變了測量與地圖產業)、1:08 Photogrammetry(攝影測量 photogrammetry，也就是怎麼從很多張重疉照片算出立體資訊)、1:58 Automated Missions(測繪任務怎麼自動規劃航線與拍照間距)、3:05 Examples(實際產出範例)、3:25 Summary。整支片是白話講解，適合完全沒碰過測繪的人先看這支，再看後面兩支延伸，建立正射影像 orthomosaic、3D 建模、數字孿生(digital twin)這幾個詞彼此的關係。"
+      },
+      "drills": [
+        {
+          "name": "正射影像是什麼",
+          "en": "What is an orthomosaic",
+          "kind": "lecture",
+          "target": "正射影像(orthomosaic)跟一般空拍照片的差別，為什麼測繪要拼成正射影像而不是直接看單張照片",
+          "dose": "看完後想一下，如果只有一張空拍照片，為什麼不能拿來準確量距離或面積，正射影像解決的是哪個問題",
+          "title": "What Is An Orthomosaic? Orthomosaic Maps & Orthophotos Explained",
+          "channel": "dronegenuity",
+          "url": "https://www.youtube.com/watch?v=g8mapLUXyGI",
+          "duration": "5:06",
+          "why": "dronegenuity 頻道，2019 年 11 月 27 日上架，片長 5 分 6 秒，觀看數 58,145。英文片，無中文字幕，以下是繁中導讀。dronegenuity 是美國的空拍測繪服務商，片子有 YouTube 章節標記：1:04 起講一般空拍照片(Normal)本身有透視變形跟比例不一致的問題、1:18 起講正射影像(Orthophoto/orthomosaic)怎麼校正這些變形、拼接成同一張地圖等級的影像、4:38 起用 Google Earth 畫面對照示範拼接後的成果長什麼樣子。內容補上主課「Mapping 101」沒細講的正射影像成因，講解方式是動畫加旁白，沒有實際飛行畫面。"
+        },
+        {
+          "name": "災後測繪案例：野火損害評估",
+          "en": "Post-wildfire drone mapping case study",
+          "kind": "official",
+          "target": "災後用空拍測繪產出正射影像，協助地方單位判斷哪些區域損害最重的實際流程",
+          "dose": "看完後對照三個問題：這次案例測繪的範圍多大、拼出來的正射影像拿去給誰用、跟地面勘查比起來省下了什麼",
+          "title": "WingtraOne wildfire damage assessment: CZU lightning complex",
+          "channel": "Wingtra",
+          "url": "https://www.youtube.com/watch?v=yZ6fK5wGIrg",
+          "duration": "4:12",
+          "why": "Wingtra 官方頻道，2020 年 10 月 27 日上架，片長 4 分 12 秒，觀看數 4,055。英文片，無中文字幕，以下是繁中導讀，內容摘自官方說明欄。2020 年加州 CZU Lightning Complex 野火之後，當地單位把測繪機型從一般多旋翼升級成固定翼 WingtraOne，飛測繪任務把四個社區、兩個州立公園、共 86,509 英畝(約 35,009 公頃)、近 1,500 棟受損建築的範圍拼成正射影像，產出損害紀錄文件，受訪者包括測繪服務商 GeoAcuity 與 Lafayette 警局的人員。片源是無人機廠商 Wingtra 自己的產品案例頻道，不是新聞台的災難報導，講的是測繪公司做的案例回顧流程。沒有 YouTube 章節標記，也沒有任何語言的字幕可抓，時間點抓不出來。"
+        }
+      ]
+    }
+  ]
+}
